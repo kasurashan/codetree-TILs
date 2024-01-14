@@ -3,7 +3,7 @@ cnt = 0
 while True:
     x = int(input())
     
-    if str(x)[-2] == '2':
+    if x>=20 and x<30:
         s += x
         cnt += 1
         
