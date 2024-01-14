@@ -4,7 +4,7 @@ s = int(x**0.5)
 
 ans=False
 for i in range(1,s+1):
-    if x%i:
+    if x%i==0:
         ans=True
         break
 
