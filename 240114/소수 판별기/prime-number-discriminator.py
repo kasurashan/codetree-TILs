@@ -1,4 +1,4 @@
-n = int(inut())
+n = int(input())
 s= int(n**0.5)
 
 ans=False
