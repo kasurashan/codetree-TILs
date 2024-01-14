@@ -8,7 +8,7 @@ for i in range(1,s+1):
         ans=True
         break
 
-if ans=True:
+if ans==True:
     print('C')
 else:
     print('N')
