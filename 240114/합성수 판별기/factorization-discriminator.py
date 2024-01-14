@@ -3,7 +3,7 @@ x = int(input())
 s = int(x**0.5)
 
 ans=False
-for i in range(1,s+1):
+for i in range(2,s+1):
     if x%i==0:
         ans=True
         break
