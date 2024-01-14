@@ -6,6 +6,10 @@ while True:
     if str(x)[-2] == '2':
         s += x
         cnt += 1
+        
     else:
         break
-print(f'{s/cnt:.2f}')
+if cnt==0:
+    print(0)
+else:
+    print(f'{s/cnt:.2f}')
