@@ -6,6 +6,6 @@ for i in range(2*n):
             print('* ', end='')
         print()
     else:
-        for _ in range((n-i)//2 + 2, 0, -1):
+        for _ in range(n - i//2):
             print('* ', end='')
         print()
